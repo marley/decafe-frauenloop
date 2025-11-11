@@ -1,7 +1,6 @@
 import Header from "./components/Header";
 import Menu from "./components/Menu";
-import Button from "./components/Button";
-import Event from "./components/Event";
+import Events from "./components/Events";
 
 function App() {
   return (
@@ -18,11 +17,7 @@ function App() {
       />
       <Menu />
 
-      <Button title="Order now!" />
-
-      {/* 
-      <Menu />
-      <Contact /> */}
+      <Events />
     </div>
   );
 }

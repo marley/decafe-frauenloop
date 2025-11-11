@@ -1,9 +1,10 @@
-function Header({ title }) {
+function Button({ title }) {
   return (
-    <div>
+    <div className="d-flex justify-content-center">
       <button class="bg-info">{title}</button>
+      {/* so far this button does nothing */}
     </div>
   );
 }
 
-export default Header;
+export default Button;

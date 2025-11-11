@@ -1,8 +1,8 @@
 function Event({ title, date, imgUrl }) {
   return (
     <div>
-      <img src={imgUrl} alt="autumn leaves and  hands" />
-      <h1>{title}</h1>
+      <img src={imgUrl} width="150px" />
+      <h3>{title}</h3>
       <p>{date}</p>
     </div>
   );

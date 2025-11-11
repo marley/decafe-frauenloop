@@ -1,16 +1,9 @@
-# React + Vite
+# Simple Cafe app using React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a SPA (single page app) consisting of several react components. In it's current state, it is not perfect. If you can think of ways to improve it (code-wise, design-wise), reach out to your teacher on slack.
 
-Currently, two official plugins are available:
+This code mostly contains things that we covered in class, but note a few changes:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Added an Events component which consists of multiple Event components. And used Bootstrap classes to format the events in a [row](https://getbootstrap.com/docs/4.0/layout/grid/) (see `src/components/Event.jsx` and `src/components/Events.jsx`).
+2. Now using the Bootstrap classes ["list-group" and "list-group-item"](https://getbootstrap.com/docs/4.0/components/list-group/) to style the `ul` and `li` tags. (see `src/components/Menu.jsx`).
+3. Now using Boostrap classes to [center](https://getbootstrap.com/docs/4.0/utilities/flex/#justify-content) the button under the Menu.
